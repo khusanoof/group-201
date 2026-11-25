@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f6fb;
+  color: #202633;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 48px;
+  background: #1f3c88;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu a {
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  color: #c9d6f5;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: white;
+  border-bottom-color: #2ec4b6;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 40px;
+}
+
+.hero-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #1f3c88;
+  color: white;
+  text-decoration: none;
+}
+
+.skills {
+  padding: 0 40px 60px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 48px;
+  background: #1f3c88;
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: white;
+}
