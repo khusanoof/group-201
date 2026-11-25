@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.library{
+    background-color: rgb(239, 228, 214);
+    min-height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    background-color: white;
+    margin: 0;
+    padding: 25px 100px;
+    width: 100%;
+}
+.k{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar-a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    font-weight: 600;
+    
+}
+.navbar-a a{
+    text-decoration: none;    
+    color: black;
+}
+.navbar p{
+    color: rgb(252, 156, 2);
+    font-weight: 600;
+}
+.k h2{
+    background-color: green;
+    width: 35px;
+    height: 35px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(224, 231, 15, 0.858);
+}
+
+.k h3{
+    color: rgb(30, 112, 30);
+}
+
+.butt button{
+    border: none;
+    outline: none;
+    background-color:white ;
+    color: green;
+    font-weight: 700;
+    border-radius: 50px;
+    width: 190px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.opshi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.body-info{
+    margin-top: 15px;
+    width: 460px;
+}
+
+.body-info h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.body-info span{
+    color: rgb(255, 106, 0);
+}
+
+.inf{
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 600;
+    color: rgba(5, 60, 22, 0.812);
+}
+
+.tug{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bir button{
+    margin-top: 15px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(3, 87, 3);
+    color: white;
+    font-weight: 400;
+}
+
+.ikki button{
+    margin-top: 15px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(9, 59, 9);
+    font-weight: 400;
+    background-color: rgba(250, 235, 215, 0.779);
+    color: rgb(12, 55, 12);
+}
+
+
+
+
+
+
+.books{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kecha-kunduz{
+    background-color: rgb(201, 77, 11);
+    width: 170px;
+    height: 220px;
+    border-radius: 15px;
+    box-shadow: -10px 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.shakls1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.chzq1{
+    width: 45px;
+    height: 5px;
+    background-color: rgb(209, 178, 79);
+    padding: 0;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.doira1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(208, 214, 41);
+    border-radius: 100%;
+}
+.yozu h5{
+    margin-left: 10px;
+    font-size: 22px;
+    color: white;
+}
+.cr li{
+    margin-top: 7px;
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+    list-style: none;
+
+}
+
+
+.otgan-kun{
+    background-color: rgb(11, 102, 22);
+    width: 190px;
+    height: 240px;
+    border-radius: 15px;
+    box-shadow: -10px 20px 40px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+
+.dunyo-ish{
+    background-color: rgb(139, 9, 151);
+    width: 170px;
+    height: 220px;
+    border-radius: 15px;
+    box-shadow: -10px 20px 40px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.chzq2{
+    margin-top: 60px;
+    width: 170px;
+    height: 1px;
+    background-color: white;
+}
+
+

@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portifolio{
+    background-color: rgba(232, 233, 235, 0.868);
+    min-height: 100vh
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: blue;
+    width: 100%;
+    padding: 20px;
+}
+
+.yonalsh a{
+    text-decoration: none;
+    color: white;
+}
+.yonalsh{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.shu{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+}
+.rasm{
+    width: fit-content;
+
+}
+
+.shu img{
+    width: 15%;
+    border-radius: 100%;
+}
+
+.yozu{
+    font-weight: bold;
+    padding: 30px;
+}
+
+.shu button{
+    background-color: rgba(5, 5, 78, 0.796);
+    color: white;
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    
+}
+
+.organ{
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.skills{
+    margin-top: 15px;
+    margin-right: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.py{
+    background-color: white;
+    height: 170px;
+    width: 200px;
+    border-radius: 20px;
+    list-style: none;
+    padding: 10px;
+}
+.py h3{
+    margin-bottom: 12px;
+    color: rgba(13, 103, 46, 0.597);
+}
+
+
+.sql{
+    background-color: white;
+    height: 170px;
+    width: 200px;
+    border-radius: 20px;
+    list-style: none;
+    padding: 10px;
+}
+.sql h3{
+    margin-bottom: 12px;
+    color: rgba(13, 103, 46, 0.597);
+}
+
+
+.front{
+    background-color: white;
+    height: 170px;
+    width: 200px;
+    border-radius: 20px;
+    list-style: none;
+    padding: 10px;
+}
+.front h3{
+    margin-bottom: 12px;
+    color: rgba(13, 103, 46, 0.597);
+}
+
+
+.dart{
+    background-color: white;
+    height: 170px;
+    width: 200px;
+    border-radius: 20px;
+    list-style: none;
+    padding: 10px;
+}
+.dart h3{
+    margin-bottom: 12px;
+    color: rgba(13, 103, 46, 0.597);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: blue;
+    width: 100%;
+    padding: 20px;  
+}
